@@ -45,3 +45,7 @@ finally:
     if 'connection' in locals() and connection.open:
         connection.close()
         print("Connection closed.")
+sudo apt update
+sudo apt install mysql-client -y
+
+ mysql -h database-1.cvwkgkmiczsf.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
